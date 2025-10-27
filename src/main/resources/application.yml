@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: "astonLearn"
+  profiles:
+    active: dev
+  jmx:
+    enabled: false
+
+app:
+  kafka:
+    topic:
+      user-events: user.events

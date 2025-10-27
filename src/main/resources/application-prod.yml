@@ -1,0 +1,10 @@
+logging:
+  level:
+    root: info
+  file:
+    name: logs/prod.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{30} - %msg%n"
+
+
+#Ну и настройка бд для prod
