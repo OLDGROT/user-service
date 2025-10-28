@@ -37,14 +37,12 @@ class UserControllerTest {
     @Autowired
     private ObjectMapper objectMapper;
 
-    @MockitoBean
-    private UserEventerKafka producer;
 
     @Test
     void getAllUsers_returnsListOfUsers() throws Exception {
         List<UserDto> users = List.of(
-                new UserDto(1L, "Alice", "alice@mail.com", (byte) 23, "ADMIN"),
-                new UserDto(2L, "Bob", "bob@mail.com", (byte) 24, "USER")
+                new UserDto(1L, "Alice", "alice@mail.com", (byte) 23, "ADMIN", null),
+                new UserDto(2L, "Bob", "bob@mail.com", (byte) 24, "USER", null)
         );
 
         Mockito.when(userService.getAllUsers()).thenReturn(users);
@@ -58,8 +56,8 @@ class UserControllerTest {
 
     @Test
     void createUser_returnsCreatedUser() throws Exception {
-        UserDto request = new UserDto(null, "Charlie", "charlie@mail.com", (byte) 22, "ADMIN");
-        UserDto saved = new UserDto(3L, "Charlie", "charlie@mail.com", (byte) 22, "USER");
+        UserDto request = new UserDto(null, "Charlie", "charlie@mail.com", (byte) 22, "ADMIN", null);
+        UserDto saved = new UserDto(3L, "Charlie", "charlie@mail.com", (byte) 22, "USER", null);
 
         Mockito.when(userService.createUser(any(UserDto.class))).thenReturn(saved);
 
@@ -73,8 +71,8 @@ class UserControllerTest {
 
     @Test
     void updateUser_returnsUpdatedUser() throws Exception {
-        UserDto request = new UserDto(null, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "ADMIN");
-        UserDto updated = new UserDto(1L, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "USER");
+        UserDto request = new UserDto(null, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "ADMIN", null);
+        UserDto updated = new UserDto(1L, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "USER", null);
 
         Mockito.when(userService.updateUser(eq(1L), any(UserDto.class))).thenReturn(updated);
 
