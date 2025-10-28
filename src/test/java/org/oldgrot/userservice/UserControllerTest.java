@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.oldgrot.userservice.controller.UserController;
 import org.oldgrot.userservice.dto.UserDto;
 import org.oldgrot.userservice.hateos.UserModelAssembler;
+import org.oldgrot.userservice.kafka.UserEventerKafka;
 import org.oldgrot.userservice.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -35,6 +36,9 @@ class UserControllerTest {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    @MockitoBean
+    private UserEventerKafka producer;
 
     @Test
     void getAllUsers_returnsListOfUsers() throws Exception {

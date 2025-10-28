@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://ep-broad-shadow-agy7uj1a-pooler.c-2.eu-central-1.aws.neon.tech:5432/neondb?sslmode=require
+    url: jdbc:postgresql://ep-sweet-thunder-ahdfyzsk-pooler.c-3.us-east-1.aws.neon.tech:5432/neondb?sslmode=require&channel_binding=require
     username: neondb_owner
-    password: npg_NgT7WQsl8yRO
+    password: npg_lqbF1QmietG2
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -24,7 +24,7 @@ server:
 
 logging:
   level:
-    root: debug
+    root: info
     org.example.astonlearn.service: trace
   file:
     name: logs/dev.log

@@ -26,7 +26,7 @@ public class User {
     @EqualsAndHashCode.Include
     private Long id;
 
-    @Column(nullable = false)
+    @Column(name = "name", nullable = false)
     private String username;
 
     @Column(nullable = false, unique = true)
@@ -34,7 +34,7 @@ public class User {
 
     private byte age;
 
-    @Column(nullable = false, updatable = false)
+    @Column(name = "created_At", nullable = false, updatable = false)
     @CreationTimestamp
     private LocalDateTime createdAt;
 

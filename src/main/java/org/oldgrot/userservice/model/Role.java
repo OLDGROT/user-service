@@ -11,7 +11,7 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-@Table(name = "role")
+@Table(name = "roles")
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "role_sq")
@@ -20,5 +20,6 @@ public class Role {
     @EqualsAndHashCode.Include
     private Long id;
 
+    @Column(name = "title")
     private String name;
 }
