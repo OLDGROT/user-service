@@ -2,9 +2,9 @@ package org.oldgrot.userservice;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.oldgrot.userservice.controller.UserController;
-import org.oldgrot.userservice.dto.UserDto;
+import org.oldgrot.userservice.dto.user.UserDto;
+import org.oldgrot.userservice.dto.user.ResponseUserDto;
 import org.oldgrot.userservice.hateos.UserModelAssembler;
-import org.oldgrot.userservice.kafka.UserEventerKafka;
 import org.oldgrot.userservice.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -40,9 +40,9 @@ class UserControllerTest {
 
     @Test
     void getAllUsers_returnsListOfUsers() throws Exception {
-        List<UserDto> users = List.of(
-                new UserDto(1L, "Alice", "alice@mail.com", (byte) 23, "ADMIN", null),
-                new UserDto(2L, "Bob", "bob@mail.com", (byte) 24, "USER", null)
+        List<ResponseUserDto> users = List.of(
+                new ResponseUserDto(1L, "Alice", "alice@mail.com", (byte) 23, "ADMIN", null),
+                new ResponseUserDto(2L, "Bob", "bob@mail.com", (byte) 24, "USER", null)
         );
 
         Mockito.when(userService.getAllUsers()).thenReturn(users);
@@ -56,8 +56,8 @@ class UserControllerTest {
 
     @Test
     void createUser_returnsCreatedUser() throws Exception {
-        UserDto request = new UserDto(null, "Charlie", "charlie@mail.com", (byte) 22, "ADMIN", null);
-        UserDto saved = new UserDto(3L, "Charlie", "charlie@mail.com", (byte) 22, "USER", null);
+       UserDto request = new UserDto(2L, "Charlie", "charlie@mail.com", 22, "ADMIN");
+        ResponseUserDto saved = new ResponseUserDto(3L, "Charlie", "charlie@mail.com", (byte) 22, "USER", null);
 
         Mockito.when(userService.createUser(any(UserDto.class))).thenReturn(saved);
 
@@ -71,10 +71,10 @@ class UserControllerTest {
 
     @Test
     void updateUser_returnsUpdatedUser() throws Exception {
-        UserDto request = new UserDto(null, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "ADMIN", null);
-        UserDto updated = new UserDto(1L, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "USER", null);
+        ResponseUserDto request = new ResponseUserDto(null, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "ADMIN", null);
+        ResponseUserDto updated = new ResponseUserDto(1L, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "USER", null);
 
-        Mockito.when(userService.updateUser(eq(1L), any(UserDto.class))).thenReturn(updated);
+        Mockito.when(userService.updateUser(eq(1L), any(ResponseUserDto.class))).thenReturn(updated);
 
         mockMvc.perform(put("/api/users/1")
                         .contentType(MediaType.APPLICATION_JSON)

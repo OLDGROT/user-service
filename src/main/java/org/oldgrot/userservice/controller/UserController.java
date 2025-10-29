@@ -6,20 +6,15 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.oldgrot.userservice.dto.UserDto;
+import org.oldgrot.userservice.dto.user.UserDto;
+import org.oldgrot.userservice.dto.user.ResponseUserDto;
 import org.oldgrot.userservice.hateos.UserModelAssembler;
-import org.oldgrot.userservice.kafka.UserEventerKafka;
 import org.oldgrot.userservice.service.UserService;
-import org.springframework.hateoas.CollectionModel;
-import org.springframework.hateoas.EntityModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
-
-import static java.util.stream.Collectors.toList;
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 @Slf4j
 @RestController
@@ -34,11 +29,11 @@ public class UserController {
     @GetMapping("/getUsers")
     @Operation(summary = "Получить всех пользователей")
     @ApiResponse(responseCode = "200", description = "Список пользователей получен")
-    public ResponseEntity<List<UserDto>>getAll() {
+    public ResponseEntity<List<ResponseUserDto>>getAll() {
         log.info("Получен запрос на получение всех пользователей");
 
-        List<UserDto> users = userService.getAllUsers().stream()
-                .peek(userDto -> userDto.setLinks(Map.of("Обновить пользователя", "/update/{id}","Удалить пользователя", "/delete/{id}")))
+        List<ResponseUserDto> users = userService.getAllUsers().stream()
+                .peek(responseUserDto -> responseUserDto.setLinks(Map.of("Обновить пользователя", "/update/{id}","Удалить пользователя", "/delete/{id}")))
                 .toList();
 
         return ResponseEntity.ok(users);
@@ -48,9 +43,9 @@ public class UserController {
     @PostMapping("/createUser")
     @Operation(summary = "Создать нового пользователя")
     @ApiResponse(responseCode = "200", description = "Пользователь успешно создан")
-    public ResponseEntity<UserDto> create(@RequestBody UserDto dto) {
+    public ResponseEntity<ResponseUserDto> create(@RequestBody UserDto dto) {
         log.info("Создание пользователя с email: {}", dto.getEmail());
-        UserDto created = userService.createUser(dto);
+        ResponseUserDto created = userService.createUser(dto);
 
         created.setLinks(Map.of("Получить всех пользователей", "/api/users"));
         return ResponseEntity.ok(created);
@@ -59,12 +54,12 @@ public class UserController {
     @PutMapping("/update/{id}")
     @Operation(summary = "Обновить пользователя")
     @ApiResponse(responseCode = "200", description = "Пользователь обновлён")
-    public ResponseEntity<UserDto> update(
+    public ResponseEntity<ResponseUserDto> update(
             @PathVariable @Parameter(description = "id пользователя") Long id,
             @RequestBody UserDto dto) {
 
         log.info("Обновление пользователя с id: {}", id);
-        UserDto updated = userService.updateUser(id, dto);
+        ResponseUserDto updated = userService.updateUser(id, dto);
 
         updated.setLinks(Map.of("Получить всех пользователей", "/api/"));
 

@@ -2,8 +2,9 @@ package org.oldgrot.userservice.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.oldgrot.userservice.dto.user.UserDto;
 import org.oldgrot.userservice.kafka.UserEventProducer;
-import org.oldgrot.userservice.dto.UserDto;
+import org.oldgrot.userservice.dto.user.ResponseUserDto;
 import org.oldgrot.userservice.mapper.UserMapper;
 import org.oldgrot.userservice.model.Role;
 import org.oldgrot.userservice.model.User;
@@ -24,16 +25,16 @@ public class UserService {
     private final UserMapper userMapper;
     private final UserEventProducer userEventProducer;
 
-    public List<UserDto> getAllUsers() {
+    public List<ResponseUserDto> getAllUsers() {
         log.info("Запрос на получение списка всех пользователей");
-        List<UserDto> users = userRepository.findAll().stream()
+        List<ResponseUserDto> users = userRepository.findAll().stream()
                 .map(userMapper::toDto)
                 .collect(Collectors.toList());
         log.info("Найдено пользователей: {}", users.size());
         return users;
     }
 
-    public UserDto createUser(UserDto dto) {
+    public ResponseUserDto createUser(UserDto dto) {
         log.info("Создание нового пользователя с email: {}", dto.getEmail());
 
         Role role = roleRepository.findByName(dto.getRole())
@@ -50,7 +51,7 @@ public class UserService {
         return userMapper.toDto(user);
     }
 
-    public UserDto updateUser(Long id, UserDto dto) {
+    public ResponseUserDto updateUser(Long id, UserDto dto) {
         log.info("Обновление пользователя с id: {}", id);
 
         User user = userRepository.findById(id)
