@@ -1,26 +1,20 @@
-2025-10-29T01:39:58.334+03:00  WARN 19748 --- [astonLearn] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h1m31s431ms286µs600ns).
-2025-10-29T02:03:14.736+03:00  INFO 19748 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-29T02:03:14.788+03:00  INFO 19748 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-29T02:03:14.843+03:00  INFO 19748 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T02:03:14.890+03:00  INFO 19748 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-29T02:03:14.923+03:00  INFO 19748 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-29T02:03:27.498+03:00  INFO 9276 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 9276 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
-2025-10-29T02:03:27.502+03:00  INFO 9276 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
-2025-10-29T02:03:28.725+03:00  INFO 9276 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29T02:03:28.819+03:00  INFO 9276 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
-2025-10-29T02:03:29.601+03:00  INFO 9276 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-10-29T02:03:29.621+03:00  INFO 9276 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-29T02:03:29.622+03:00  INFO 9276 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-10-29T02:03:29.693+03:00  INFO 9276 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-29T02:03:29.694+03:00  INFO 9276 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2105 ms
-2025-10-29T02:03:29.920+03:00  INFO 9276 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29T02:03:30.005+03:00  INFO 9276 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-10-29T02:03:30.056+03:00  INFO 9276 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-29T02:03:30.408+03:00  INFO 9276 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29T02:03:30.446+03:00  INFO 9276 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-29T02:03:33.922+03:00  INFO 9276 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@598e5cb8
-2025-10-29T02:03:33.922+03:00  INFO 9276 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-29T02:03:34.656+03:00  INFO 9276 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-30T12:25:20.512+03:00  INFO 24648 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 24648 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:25:20.527+03:00  INFO 24648 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:25:22.433+03:00  INFO 24648 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:25:22.546+03:00  INFO 24648 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:25:23.752+03:00  INFO 24648 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:25:23.784+03:00  INFO 24648 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:25:23.784+03:00  INFO 24648 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:25:23.914+03:00  INFO 24648 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:25:23.915+03:00  INFO 24648 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3257 ms
+2025-10-30T12:25:24.240+03:00  INFO 24648 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:25:24.357+03:00  INFO 24648 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:25:24.443+03:00  INFO 24648 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:25:25.068+03:00  INFO 24648 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:25:25.138+03:00  INFO 24648 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:25:28.042+03:00  INFO 24648 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23c72128
+2025-10-30T12:25:28.045+03:00  INFO 24648 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:25:28.875+03:00  INFO 24648 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -28,37 +22,158 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-29T02:03:35.835+03:00  INFO 9276 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29T02:03:37.454+03:00  INFO 9276 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T02:03:38.026+03:00  WARN 9276 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-29T02:03:38.815+03:00  INFO 9276 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-10-29T02:03:38.824+03:00  INFO 9276 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 11.979 seconds (process running for 14.005)
-2025-10-29T02:03:49.485+03:00  INFO 9276 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-29T02:03:49.485+03:00  INFO 9276 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-29T02:03:49.485+03:00  INFO 9276 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-10-29T02:03:50.576+03:00  INFO 9276 --- [astonLearn] [http-nio-8081-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 399 ms
-2025-10-29T02:08:56.333+03:00  INFO 9276 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-29T02:08:56.439+03:00  INFO 9276 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-29T02:08:56.544+03:00  INFO 9276 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T02:08:56.642+03:00  INFO 9276 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-29T02:08:56.759+03:00  INFO 9276 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-29T02:09:03.002+03:00  INFO 1948 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 1948 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
-2025-10-29T02:09:03.003+03:00  INFO 1948 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
-2025-10-29T02:09:04.191+03:00  INFO 1948 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29T02:09:04.265+03:00  INFO 1948 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
-2025-10-29T02:09:05.122+03:00  INFO 1948 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-10-29T02:09:05.142+03:00  INFO 1948 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-29T02:09:05.143+03:00  INFO 1948 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-10-29T02:09:05.215+03:00  INFO 1948 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-29T02:09:05.216+03:00  INFO 1948 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2128 ms
-2025-10-29T02:09:05.427+03:00  INFO 1948 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29T02:09:05.518+03:00  INFO 1948 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-10-29T02:09:05.565+03:00  INFO 1948 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-29T02:09:06.002+03:00  INFO 1948 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29T02:09:06.052+03:00  INFO 1948 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-29T02:09:08.646+03:00  INFO 1948 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@86377d5
-2025-10-29T02:09:08.646+03:00  INFO 1948 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-29T02:09:09.550+03:00  INFO 1948 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-30T12:25:30.900+03:00  INFO 24648 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:25:32.613+03:00  INFO 24648 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:25:33.541+03:00  WARN 24648 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:25:34.829+03:00  INFO 24648 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:25:34.846+03:00  INFO 24648 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 15.363 seconds (process running for 18.677)
+2025-10-30T12:25:45.637+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:25:45.638+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:25:45.641+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-30T12:25:46.967+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 651 ms
+2025-10-30T12:28:06.644+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-4] o.o.u.controller.UserController          : Обновление пользователя с id: 1
+2025-10-30T12:28:06.650+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-4] o.o.userservice.service.UserService      : Обновление пользователя с id: 1
+2025-10-30T12:28:07.470+03:00 ERROR 24648 --- [astonLearn] [http-nio-8081-exec-4] o.o.userservice.service.UserService      : Не удалось обновить — пользователь с id 1 не найден
+2025-10-30T12:28:07.481+03:00 ERROR 24648 --- [astonLearn] [http-nio-8081-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Пользователь не найден] with root cause
+
+java.lang.RuntimeException: Пользователь не найден
+	at org.oldgrot.userservice.service.UserService.lambda$updateUser$1(UserService.java:60) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at org.oldgrot.userservice.service.UserService.updateUser(UserService.java:58) ~[classes/:na]
+	at org.oldgrot.userservice.controller.UserController.update(UserController.java:70) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-10-30T12:28:42.966+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-5] o.o.u.controller.UserController          : Обновление пользователя с id: 1
+2025-10-30T12:28:42.966+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-5] o.o.userservice.service.UserService      : Обновление пользователя с id: 1
+2025-10-30T12:28:43.444+03:00 ERROR 24648 --- [astonLearn] [http-nio-8081-exec-5] o.o.userservice.service.UserService      : Не удалось обновить — пользователь с id 1 не найден
+2025-10-30T12:28:43.448+03:00 ERROR 24648 --- [astonLearn] [http-nio-8081-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Пользователь не найден] with root cause
+
+java.lang.RuntimeException: Пользователь не найден
+	at org.oldgrot.userservice.service.UserService.lambda$updateUser$1(UserService.java:60) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at org.oldgrot.userservice.service.UserService.updateUser(UserService.java:58) ~[classes/:na]
+	at org.oldgrot.userservice.controller.UserController.update(UserController.java:70) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.6.jar:6.2.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.40.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.6.jar:6.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.40.jar:10.1.40]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-10-30T12:29:12.503+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-6] o.o.u.controller.UserController          : Получен запрос на получение всех пользователей
+2025-10-30T12:29:12.509+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-6] o.o.userservice.service.UserService      : Запрос на получение списка всех пользователей
+2025-10-30T12:29:13.261+03:00  INFO 24648 --- [astonLearn] [http-nio-8081-exec-6] o.o.userservice.service.UserService      : Найдено пользователей: 0
+2025-10-30T12:29:40.588+03:00  INFO 24648 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:29:40.623+03:00  INFO 24648 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:29:40.644+03:00  INFO 24648 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:29:40.653+03:00  INFO 24648 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:29:42.303+03:00  INFO 24648 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:29:51.517+03:00  INFO 16116 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 16116 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:29:51.521+03:00  INFO 16116 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:29:53.400+03:00  INFO 16116 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:29:53.523+03:00  INFO 16116 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:29:54.710+03:00  INFO 16116 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:29:54.741+03:00  INFO 16116 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:29:54.741+03:00  INFO 16116 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:29:54.874+03:00  INFO 16116 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:29:54.874+03:00  INFO 16116 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3243 ms
+2025-10-30T12:29:55.219+03:00  INFO 16116 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:29:55.335+03:00  INFO 16116 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:29:55.409+03:00  INFO 16116 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:29:55.999+03:00  INFO 16116 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:29:56.062+03:00  INFO 16116 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:29:58.504+03:00  INFO 16116 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18b3db6e
+2025-10-30T12:29:58.508+03:00  INFO 16116 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:29:59.299+03:00  INFO 16116 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -66,37 +181,37 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-29T02:09:11.238+03:00  INFO 1948 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29T02:09:12.881+03:00  INFO 1948 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T02:09:13.463+03:00  WARN 1948 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-29T02:09:14.223+03:00  INFO 1948 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-10-29T02:09:14.235+03:00  INFO 1948 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 11.901 seconds (process running for 12.748)
-2025-10-29T02:09:21.570+03:00  INFO 1948 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-29T02:09:21.571+03:00  INFO 1948 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-29T02:09:21.575+03:00  INFO 1948 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-10-29T02:09:22.707+03:00  INFO 1948 --- [astonLearn] [http-nio-8081-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 341 ms
-2025-10-29T02:19:30.536+03:00  INFO 1948 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-29T02:19:30.639+03:00  INFO 1948 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-29T02:19:30.739+03:00  INFO 1948 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T02:19:30.827+03:00  INFO 1948 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-29T02:19:30.949+03:00  INFO 1948 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-29T02:19:37.461+03:00  INFO 19328 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 19328 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
-2025-10-29T02:19:37.463+03:00  INFO 19328 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
-2025-10-29T02:19:39.915+03:00  INFO 19328 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29T02:19:39.977+03:00  INFO 19328 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
-2025-10-29T02:19:40.686+03:00  INFO 19328 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-10-29T02:19:40.705+03:00  INFO 19328 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-29T02:19:40.706+03:00  INFO 19328 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-10-29T02:19:40.777+03:00  INFO 19328 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-29T02:19:40.777+03:00  INFO 19328 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3128 ms
-2025-10-29T02:19:40.993+03:00  INFO 19328 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29T02:19:41.067+03:00  INFO 19328 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-10-29T02:19:41.112+03:00  INFO 19328 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-29T02:19:41.424+03:00  INFO 19328 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29T02:19:41.460+03:00  INFO 19328 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-29T02:19:43.941+03:00  INFO 19328 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1214c98b
-2025-10-29T02:19:43.946+03:00  INFO 19328 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-29T02:19:44.730+03:00  INFO 19328 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-30T12:30:01.276+03:00  INFO 16116 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:30:02.862+03:00  INFO 16116 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:30:03.835+03:00  WARN 16116 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:30:05.132+03:00  INFO 16116 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:30:05.148+03:00  INFO 16116 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 14.803 seconds (process running for 16.209)
+2025-10-30T12:30:09.540+03:00  INFO 16116 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:30:09.541+03:00  INFO 16116 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:30:09.544+03:00  INFO 16116 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-10-30T12:30:10.806+03:00  INFO 16116 --- [astonLearn] [http-nio-8081-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 470 ms
+2025-10-30T12:31:07.218+03:00  INFO 16116 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:31:07.239+03:00  INFO 16116 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:31:07.259+03:00  INFO 16116 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:31:07.275+03:00  INFO 16116 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:31:08.929+03:00  INFO 16116 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:31:22.990+03:00  INFO 25064 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 25064 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:31:22.993+03:00  INFO 25064 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:31:24.834+03:00  INFO 25064 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:31:24.960+03:00  INFO 25064 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:31:26.322+03:00  INFO 25064 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:31:26.353+03:00  INFO 25064 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:31:26.354+03:00  INFO 25064 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:31:26.505+03:00  INFO 25064 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:31:26.506+03:00  INFO 25064 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3394 ms
+2025-10-30T12:31:26.946+03:00  INFO 25064 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:31:27.126+03:00  INFO 25064 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:31:27.217+03:00  INFO 25064 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:31:27.878+03:00  INFO 25064 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:31:27.962+03:00  INFO 25064 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:31:30.524+03:00  INFO 25064 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c9151c1
+2025-10-30T12:31:30.527+03:00  INFO 25064 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:31:31.319+03:00  INFO 25064 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -104,37 +219,37 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-29T02:19:45.765+03:00  INFO 19328 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29T02:19:47.392+03:00  INFO 19328 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T02:19:47.919+03:00  WARN 19328 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-29T02:19:48.578+03:00  INFO 19328 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-10-29T02:19:48.587+03:00  INFO 19328 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 12.157 seconds (process running for 12.951)
-2025-10-29T02:20:21.171+03:00  INFO 19328 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-29T02:20:21.171+03:00  INFO 19328 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-29T02:20:21.173+03:00  INFO 19328 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-10-29T02:20:22.196+03:00  INFO 19328 --- [astonLearn] [http-nio-8081-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 367 ms
-2025-10-29T02:31:40.573+03:00  INFO 19328 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-29T02:31:40.627+03:00  INFO 19328 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-29T02:31:40.667+03:00  INFO 19328 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T02:31:40.703+03:00  INFO 19328 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-29T02:31:40.748+03:00  INFO 19328 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-29T02:31:46.905+03:00  INFO 19924 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 19924 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
-2025-10-29T02:31:46.907+03:00  INFO 19924 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
-2025-10-29T02:31:47.938+03:00  INFO 19924 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29T02:31:48.006+03:00  INFO 19924 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
-2025-10-29T02:31:48.705+03:00  INFO 19924 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-10-29T02:31:48.723+03:00  INFO 19924 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-29T02:31:48.725+03:00  INFO 19924 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-10-29T02:31:48.790+03:00  INFO 19924 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-29T02:31:48.791+03:00  INFO 19924 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1826 ms
-2025-10-29T02:31:48.990+03:00  INFO 19924 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29T02:31:49.075+03:00  INFO 19924 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-10-29T02:31:49.124+03:00  INFO 19924 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-29T02:31:49.475+03:00  INFO 19924 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29T02:31:49.515+03:00  INFO 19924 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-29T02:31:51.877+03:00  INFO 19924 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@252d8df6
-2025-10-29T02:31:51.878+03:00  INFO 19924 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-29T02:31:52.607+03:00  INFO 19924 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-30T12:31:33.327+03:00  INFO 25064 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:31:34.947+03:00  INFO 25064 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:31:36.035+03:00  WARN 25064 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:31:37.445+03:00  INFO 25064 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:31:37.466+03:00  INFO 25064 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 15.572 seconds (process running for 17.151)
+2025-10-30T12:32:08.068+03:00  INFO 25064 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:32:08.068+03:00  INFO 25064 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:32:08.073+03:00  INFO 25064 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-10-30T12:32:09.230+03:00  INFO 25064 --- [astonLearn] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 411 ms
+2025-10-30T12:33:19.501+03:00  INFO 25064 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:33:19.515+03:00  INFO 25064 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:33:19.529+03:00  INFO 25064 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:33:19.538+03:00  INFO 25064 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:33:21.187+03:00  INFO 25064 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:33:26.563+03:00  INFO 8696 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 8696 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:33:26.566+03:00  INFO 8696 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:33:28.476+03:00  INFO 8696 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:33:28.607+03:00  INFO 8696 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:33:29.933+03:00  INFO 8696 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:33:29.970+03:00  INFO 8696 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:33:29.970+03:00  INFO 8696 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:33:30.108+03:00  INFO 8696 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:33:30.109+03:00  INFO 8696 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3411 ms
+2025-10-30T12:33:30.489+03:00  INFO 8696 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:33:30.648+03:00  INFO 8696 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:33:30.734+03:00  INFO 8696 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:33:31.397+03:00  INFO 8696 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:33:31.464+03:00  INFO 8696 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:33:34.125+03:00  INFO 8696 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77d54a41
+2025-10-30T12:33:34.135+03:00  INFO 8696 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:33:34.991+03:00  INFO 8696 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -142,43 +257,37 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-29T02:31:53.653+03:00  INFO 19924 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29T02:31:55.242+03:00  INFO 19924 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T02:31:55.783+03:00  WARN 19924 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-29T02:31:56.492+03:00  INFO 19924 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-10-29T02:31:56.500+03:00  INFO 19924 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 10.226 seconds (process running for 11.0)
-2025-10-29T02:32:05.797+03:00  INFO 19924 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-29T02:32:05.797+03:00  INFO 19924 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-29T02:32:05.798+03:00  INFO 19924 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-10-29T02:32:06.723+03:00  INFO 19924 --- [astonLearn] [http-nio-8081-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 346 ms
-2025-10-29T02:33:45.431+03:00  INFO 6360 --- [astonLearn] [main] o.o.userservice.UserControllerTest       : Starting UserControllerTest using Java 23.0.2 with PID 6360 (started by sasha in C:\Users\sasha\myApps\user-service)
-2025-10-29T02:33:45.433+03:00  INFO 6360 --- [astonLearn] [main] o.o.userservice.UserControllerTest       : The following 1 profile is active: "dev"
-2025-10-29T02:33:48.178+03:00  INFO 6360 --- [astonLearn] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-10-29T02:33:48.179+03:00  INFO 6360 --- [astonLearn] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-10-29T02:33:48.181+03:00  INFO 6360 --- [astonLearn] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2025-10-29T02:33:48.216+03:00  INFO 6360 --- [astonLearn] [main] o.o.userservice.UserControllerTest       : Started UserControllerTest in 3.391 seconds (process running for 5.102)
-2025-10-29T04:44:10.553+03:00  INFO 19924 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-29T04:44:10.715+03:00  INFO 19924 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-29T04:44:10.910+03:00  INFO 19924 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T04:44:11.046+03:00  INFO 19924 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-29T04:44:11.096+03:00  INFO 19924 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-29T04:44:21.893+03:00  INFO 2012 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 2012 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
-2025-10-29T04:44:21.897+03:00  INFO 2012 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
-2025-10-29T04:44:23.676+03:00  INFO 2012 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29T04:44:23.794+03:00  INFO 2012 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
-2025-10-29T04:44:25.146+03:00  INFO 2012 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-10-29T04:44:25.228+03:00  INFO 2012 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-29T04:44:25.228+03:00  INFO 2012 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-10-29T04:44:25.405+03:00  INFO 2012 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-29T04:44:25.405+03:00  INFO 2012 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3391 ms
-2025-10-29T04:44:25.993+03:00  INFO 2012 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29T04:44:26.545+03:00  INFO 2012 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-10-29T04:44:26.788+03:00  INFO 2012 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-29T04:44:27.465+03:00  INFO 2012 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29T04:44:27.536+03:00  INFO 2012 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-29T04:44:30.293+03:00  INFO 2012 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@112530c3
-2025-10-29T04:44:30.297+03:00  INFO 2012 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-29T04:44:31.094+03:00  INFO 2012 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-30T12:33:37.129+03:00  INFO 8696 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:33:38.740+03:00  INFO 8696 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:33:39.730+03:00  WARN 8696 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:33:41.067+03:00  INFO 8696 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:33:41.088+03:00  INFO 8696 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 15.596 seconds (process running for 17.2)
+2025-10-30T12:33:45.583+03:00  INFO 8696 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:33:45.583+03:00  INFO 8696 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:33:45.585+03:00  INFO 8696 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-30T12:33:46.848+03:00  INFO 8696 --- [astonLearn] [http-nio-8081-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 372 ms
+2025-10-30T12:36:59.739+03:00  INFO 8696 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:36:59.805+03:00  INFO 8696 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:36:59.861+03:00  INFO 8696 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:36:59.922+03:00  INFO 8696 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:37:01.622+03:00  INFO 8696 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:37:10.800+03:00  INFO 14768 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 14768 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:37:10.807+03:00  INFO 14768 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:37:12.840+03:00  INFO 14768 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:37:12.969+03:00  INFO 14768 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:37:14.175+03:00  INFO 14768 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:37:14.205+03:00  INFO 14768 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:37:14.207+03:00  INFO 14768 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:37:14.340+03:00  INFO 14768 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:37:14.341+03:00  INFO 14768 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3353 ms
+2025-10-30T12:37:14.671+03:00  INFO 14768 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:37:14.794+03:00  INFO 14768 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:37:14.868+03:00  INFO 14768 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:37:15.486+03:00  INFO 14768 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:37:15.554+03:00  INFO 14768 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:37:18.087+03:00  INFO 14768 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18b3db6e
+2025-10-30T12:37:18.090+03:00  INFO 14768 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:37:18.887+03:00  INFO 14768 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -186,37 +295,43 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-29T04:44:33.206+03:00  INFO 2012 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29T04:44:34.804+03:00  INFO 2012 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T04:44:35.883+03:00  WARN 2012 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-29T04:44:37.144+03:00  INFO 2012 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-10-29T04:44:37.162+03:00  INFO 2012 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 16.327 seconds (process running for 17.754)
-2025-10-29T04:44:41.077+03:00  INFO 2012 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-29T04:44:41.078+03:00  INFO 2012 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-29T04:44:41.082+03:00  INFO 2012 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-10-29T04:44:42.974+03:00  INFO 2012 --- [astonLearn] [http-nio-8081-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 653 ms
-2025-10-29T05:33:59.115+03:00  INFO 2012 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-29T05:33:59.208+03:00  INFO 2012 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-29T05:33:59.325+03:00  INFO 2012 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T05:33:59.455+03:00  INFO 2012 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-29T05:33:59.504+03:00  INFO 2012 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-29T05:44:20.335+03:00  INFO 20648 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 20648 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
-2025-10-29T05:44:20.338+03:00  INFO 20648 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
-2025-10-29T05:44:21.421+03:00  INFO 20648 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-29T05:44:21.484+03:00  INFO 20648 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
-2025-10-29T05:44:22.156+03:00  INFO 20648 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-10-29T05:44:22.173+03:00  INFO 20648 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-29T05:44:22.174+03:00  INFO 20648 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-10-29T05:44:22.240+03:00  INFO 20648 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-29T05:44:22.241+03:00  INFO 20648 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1845 ms
-2025-10-29T05:44:22.433+03:00  INFO 20648 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-29T05:44:22.508+03:00  INFO 20648 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-10-29T05:44:22.552+03:00  INFO 20648 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-29T05:44:22.880+03:00  INFO 20648 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-29T05:44:22.923+03:00  INFO 20648 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-29T05:44:25.386+03:00  INFO 20648 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@fa11fda
-2025-10-29T05:44:25.388+03:00  INFO 20648 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-29T05:44:26.122+03:00  INFO 20648 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-30T12:37:20.746+03:00  INFO 14768 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:37:23.501+03:00  INFO 14768 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:37:24.595+03:00  WARN 14768 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:37:25.830+03:00  INFO 14768 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:37:25.847+03:00  INFO 14768 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 16.234 seconds (process running for 17.655)
+2025-10-30T12:37:30.119+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:37:30.119+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:37:30.121+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-30T12:37:31.780+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 604 ms
+2025-10-30T12:37:37.507+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-5] o.o.u.controller.UserController          : Получен запрос на получение всех пользователей
+2025-10-30T12:37:37.508+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-5] o.o.userservice.service.UserService      : Запрос на получение списка всех пользователей
+2025-10-30T12:37:38.252+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-5] o.o.userservice.service.UserService      : Найдено пользователей: 0
+2025-10-30T12:37:57.734+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-7] o.o.u.controller.UserController          : Получен запрос на получение всех пользователей
+2025-10-30T12:37:57.734+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-7] o.o.userservice.service.UserService      : Запрос на получение списка всех пользователей
+2025-10-30T12:37:58.214+03:00  INFO 14768 --- [astonLearn] [http-nio-8081-exec-7] o.o.userservice.service.UserService      : Найдено пользователей: 0
+2025-10-30T12:41:57.859+03:00  INFO 14768 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:41:57.988+03:00  INFO 14768 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:41:58.127+03:00  INFO 14768 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:41:58.242+03:00  INFO 14768 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:42:00.278+03:00  INFO 14768 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:42:10.343+03:00  INFO 15132 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 15132 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:42:10.346+03:00  INFO 15132 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:42:12.421+03:00  INFO 15132 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:42:12.553+03:00  INFO 15132 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:42:13.822+03:00  INFO 15132 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:42:13.853+03:00  INFO 15132 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:42:13.853+03:00  INFO 15132 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:42:13.979+03:00  INFO 15132 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:42:13.979+03:00  INFO 15132 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3525 ms
+2025-10-30T12:42:14.313+03:00  INFO 15132 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:42:14.448+03:00  INFO 15132 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:42:14.523+03:00  INFO 15132 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:42:15.123+03:00  INFO 15132 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:42:15.190+03:00  INFO 15132 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:42:17.741+03:00  INFO 15132 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cd71ee2
+2025-10-30T12:42:17.746+03:00  INFO 15132 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:42:18.552+03:00  INFO 15132 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.5
@@ -224,12 +339,265 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-29T05:44:27.198+03:00  INFO 20648 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-29T05:44:28.773+03:00  INFO 20648 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-29T05:44:29.301+03:00  WARN 20648 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-29T05:44:30.020+03:00  INFO 20648 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-10-29T05:44:30.029+03:00  INFO 20648 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 10.271 seconds (process running for 12.195)
-2025-10-29T05:45:16.463+03:00  INFO 20648 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-29T05:45:16.465+03:00  INFO 20648 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-29T05:45:16.471+03:00  INFO 20648 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2025-10-29T05:45:17.348+03:00  INFO 20648 --- [astonLearn] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 366 ms
+2025-10-30T12:42:20.438+03:00  INFO 15132 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:42:22.025+03:00  INFO 15132 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:42:23.035+03:00  WARN 15132 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:42:24.342+03:00  INFO 15132 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:42:24.359+03:00  INFO 15132 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 15.135 seconds (process running for 16.623)
+2025-10-30T12:42:28.849+03:00  INFO 15132 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:42:28.850+03:00  INFO 15132 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:42:28.854+03:00  INFO 15132 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-10-30T12:42:30.412+03:00  INFO 15132 --- [astonLearn] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 549 ms
+2025-10-30T12:43:28.796+03:00  INFO 15132 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:43:28.829+03:00  INFO 15132 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:43:28.858+03:00  INFO 15132 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:43:28.881+03:00  INFO 15132 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:43:30.567+03:00  INFO 15132 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:46:45.195+03:00  INFO 25432 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 25432 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:46:45.199+03:00  INFO 25432 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:46:47.022+03:00  INFO 25432 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:46:47.132+03:00  INFO 25432 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:46:48.346+03:00  INFO 25432 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:46:48.377+03:00  INFO 25432 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:46:48.378+03:00  INFO 25432 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:46:48.522+03:00  INFO 25432 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:46:48.523+03:00  INFO 25432 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3212 ms
+2025-10-30T12:46:48.871+03:00  INFO 25432 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:46:49.004+03:00  INFO 25432 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:46:49.098+03:00  INFO 25432 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:46:49.704+03:00  INFO 25432 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:46:49.769+03:00  INFO 25432 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:46:52.284+03:00  INFO 25432 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c2cdc67
+2025-10-30T12:46:52.288+03:00  INFO 25432 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:46:53.101+03:00  INFO 25432 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T12:46:55.047+03:00  INFO 25432 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:46:56.654+03:00  INFO 25432 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:46:57.613+03:00  WARN 25432 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:46:58.876+03:00  INFO 25432 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:46:58.893+03:00  INFO 25432 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 14.755 seconds (process running for 16.193)
+2025-10-30T12:47:06.672+03:00  INFO 25432 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:47:06.673+03:00  INFO 25432 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:47:06.676+03:00  INFO 25432 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-10-30T12:47:08.758+03:00  INFO 25432 --- [astonLearn] [http-nio-8081-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 580 ms
+2025-10-30T12:47:33.527+03:00  INFO 25432 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:47:33.543+03:00  INFO 25432 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:47:33.553+03:00  INFO 25432 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:47:33.559+03:00  INFO 25432 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:47:35.179+03:00  INFO 25432 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:47:42.233+03:00  INFO 23896 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 23896 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:47:42.237+03:00  INFO 23896 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:47:43.764+03:00  INFO 23896 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:47:43.871+03:00  INFO 23896 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:47:44.940+03:00  INFO 23896 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:47:44.970+03:00  INFO 23896 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:47:44.971+03:00  INFO 23896 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:47:45.088+03:00  INFO 23896 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:47:45.089+03:00  INFO 23896 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2752 ms
+2025-10-30T12:47:45.406+03:00  INFO 23896 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:47:45.521+03:00  INFO 23896 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:47:45.594+03:00  INFO 23896 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:47:46.142+03:00  INFO 23896 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:47:46.197+03:00  INFO 23896 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:47:48.684+03:00  INFO 23896 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f67181f
+2025-10-30T12:47:48.689+03:00  INFO 23896 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:47:49.529+03:00  INFO 23896 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T12:47:51.483+03:00  INFO 23896 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:47:53.084+03:00  INFO 23896 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:47:54.037+03:00  WARN 23896 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:47:55.159+03:00  INFO 23896 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:47:55.174+03:00  INFO 23896 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 13.869 seconds (process running for 15.176)
+2025-10-30T12:48:05.884+03:00  INFO 23896 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:48:05.884+03:00  INFO 23896 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:48:05.886+03:00  INFO 23896 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-30T12:48:06.953+03:00  INFO 23896 --- [astonLearn] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 535 ms
+2025-10-30T12:51:54.226+03:00  INFO 23896 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:51:54.296+03:00  INFO 23896 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:51:54.380+03:00  INFO 23896 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:51:54.430+03:00  INFO 23896 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:51:56.112+03:00  INFO 23896 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:52:05.475+03:00  INFO 22424 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 22424 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:52:05.480+03:00  INFO 22424 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:52:06.910+03:00  WARN 22424 --- [astonLearn] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'removeHateoasModels' defined in class path resource [org/oldgrot/userservice/config/SwaggerConfig.class]: Cannot register bean definition [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=swaggerConfig; factoryMethodName=removeHateoasModels; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/oldgrot/userservice/config/SwaggerConfig.class]] for bean 'removeHateoasModels' since there is already [Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=openApiConfig; factoryMethodName=removeHateoasModels; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [org/oldgrot/userservice/config/OpenApiConfig.class]] bound.
+2025-10-30T12:52:06.926+03:00  INFO 22424 --- [astonLearn] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-30T12:52:06.978+03:00 ERROR 22424 --- [astonLearn] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'removeHateoasModels', defined in class path resource [org/oldgrot/userservice/config/SwaggerConfig.class], could not be registered. A bean with that name has already been defined in class path resource [org/oldgrot/userservice/config/OpenApiConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-10-30T12:52:23.770+03:00  INFO 13460 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 13460 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:52:23.776+03:00  INFO 13460 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:52:25.392+03:00  INFO 13460 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:52:25.505+03:00  INFO 13460 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:52:26.802+03:00  INFO 13460 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:52:26.835+03:00  INFO 13460 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:52:26.836+03:00  INFO 13460 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:52:26.959+03:00  INFO 13460 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:52:26.959+03:00  INFO 13460 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3080 ms
+2025-10-30T12:52:27.356+03:00  INFO 13460 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:52:27.508+03:00  INFO 13460 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:52:27.587+03:00  INFO 13460 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:52:28.206+03:00  INFO 13460 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:52:28.275+03:00  INFO 13460 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:52:30.732+03:00  INFO 13460 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c3679e5
+2025-10-30T12:52:30.736+03:00  INFO 13460 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:52:31.580+03:00  INFO 13460 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T12:52:33.501+03:00  INFO 13460 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:52:34.998+03:00  INFO 13460 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:52:35.920+03:00  WARN 13460 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:52:37.169+03:00  INFO 13460 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:52:37.186+03:00  INFO 13460 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 14.398 seconds (process running for 15.689)
+2025-10-30T12:52:42.738+03:00  INFO 13460 --- [astonLearn] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:52:42.738+03:00  INFO 13460 --- [astonLearn] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:52:42.740+03:00  INFO 13460 --- [astonLearn] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-30T12:52:44.574+03:00  INFO 13460 --- [astonLearn] [http-nio-8081-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 598 ms
+2025-10-30T12:55:15.031+03:00  INFO 13460 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:55:15.117+03:00  INFO 13460 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:55:15.232+03:00  INFO 13460 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:55:15.325+03:00  INFO 13460 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:55:17.032+03:00  INFO 13460 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:55:26.767+03:00  INFO 25296 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 25296 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:55:26.774+03:00  INFO 25296 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:55:28.988+03:00  INFO 25296 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:55:29.142+03:00  INFO 25296 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:55:30.730+03:00  INFO 25296 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:55:30.766+03:00  INFO 25296 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:55:30.766+03:00  INFO 25296 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:55:30.915+03:00  INFO 25296 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:55:30.915+03:00  INFO 25296 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4022 ms
+2025-10-30T12:55:31.306+03:00  INFO 25296 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:55:31.460+03:00  INFO 25296 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:55:31.554+03:00  INFO 25296 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:55:32.343+03:00  INFO 25296 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:55:32.431+03:00  INFO 25296 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:55:35.048+03:00  INFO 25296 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2bd2430f
+2025-10-30T12:55:35.050+03:00  INFO 25296 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:55:35.843+03:00  INFO 25296 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T12:55:38.044+03:00  INFO 25296 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:55:39.563+03:00  INFO 25296 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:55:40.766+03:00  WARN 25296 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:55:42.326+03:00  INFO 25296 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:55:42.351+03:00  INFO 25296 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 16.792 seconds (process running for 18.364)
+2025-10-30T12:55:45.783+03:00  INFO 25296 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:55:45.783+03:00  INFO 25296 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:55:45.783+03:00  INFO 25296 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-30T12:55:47.623+03:00  INFO 25296 --- [astonLearn] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 629 ms
+2025-10-30T12:55:52.067+03:00  INFO 25296 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:55:52.116+03:00  INFO 25296 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:55:52.133+03:00  INFO 25296 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:55:52.142+03:00  INFO 25296 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:55:53.809+03:00  INFO 25296 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:55:58.144+03:00  INFO 2464 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 2464 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:55:58.148+03:00  INFO 2464 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:55:59.929+03:00  INFO 2464 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:56:00.084+03:00  INFO 2464 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:56:01.359+03:00  INFO 2464 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:56:01.401+03:00  INFO 2464 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:56:01.402+03:00  INFO 2464 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:56:01.537+03:00  INFO 2464 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:56:01.538+03:00  INFO 2464 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3284 ms
+2025-10-30T12:56:01.905+03:00  INFO 2464 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:56:02.014+03:00  INFO 2464 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:56:02.083+03:00  INFO 2464 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:56:02.679+03:00  INFO 2464 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:56:02.740+03:00  INFO 2464 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:56:05.142+03:00  INFO 2464 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@731e0bff
+2025-10-30T12:56:05.147+03:00  INFO 2464 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:56:05.928+03:00  INFO 2464 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T12:56:08.102+03:00  INFO 2464 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:56:09.608+03:00  INFO 2464 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:56:10.672+03:00  WARN 2464 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:56:12.292+03:00  INFO 2464 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:56:12.312+03:00  INFO 2464 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 15.16 seconds (process running for 16.505)
+2025-10-30T12:56:24.698+03:00  INFO 2464 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:56:24.698+03:00  INFO 2464 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:56:24.700+03:00  INFO 2464 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-30T12:56:25.795+03:00  INFO 2464 --- [astonLearn] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 539 ms
+2025-10-30T12:57:01.665+03:00  INFO 2464 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:57:01.681+03:00  INFO 2464 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:57:01.692+03:00  INFO 2464 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:57:01.697+03:00  INFO 2464 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:57:04.324+03:00  INFO 2464 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-30T12:58:58.212+03:00  INFO 10964 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 23.0.2 with PID 10964 (C:\Users\sasha\myApps\user-service\target\classes started by sasha in C:\Users\sasha\myApps\user-service)
+2025-10-30T12:58:58.217+03:00  INFO 10964 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : The following 1 profile is active: "dev"
+2025-10-30T12:59:00.112+03:00  INFO 10964 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-30T12:59:00.237+03:00  INFO 10964 --- [astonLearn] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+2025-10-30T12:59:01.600+03:00  INFO 10964 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-30T12:59:01.641+03:00  INFO 10964 --- [astonLearn] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-30T12:59:01.641+03:00  INFO 10964 --- [astonLearn] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-10-30T12:59:01.795+03:00  INFO 10964 --- [astonLearn] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-30T12:59:01.795+03:00  INFO 10964 --- [astonLearn] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3442 ms
+2025-10-30T12:59:02.154+03:00  INFO 10964 --- [astonLearn] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-30T12:59:02.287+03:00  INFO 10964 --- [astonLearn] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-10-30T12:59:02.362+03:00  INFO 10964 --- [astonLearn] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-30T12:59:02.991+03:00  INFO 10964 --- [astonLearn] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-30T12:59:03.072+03:00  INFO 10964 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-30T12:59:05.799+03:00  INFO 10964 --- [astonLearn] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@32caae19
+2025-10-30T12:59:05.801+03:00  INFO 10964 --- [astonLearn] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-30T12:59:06.742+03:00  INFO 10964 --- [astonLearn] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-30T12:59:08.917+03:00  INFO 10964 --- [astonLearn] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-30T12:59:10.541+03:00  INFO 10964 --- [astonLearn] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:59:11.791+03:00  WARN 10964 --- [astonLearn] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-30T12:59:13.096+03:00  INFO 10964 --- [astonLearn] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-30T12:59:13.114+03:00  INFO 10964 --- [astonLearn] [main] o.o.userservice.UserServiceApplication   : Started UserServiceApplication in 16.042 seconds (process running for 17.727)
+2025-10-30T12:59:16.914+03:00  INFO 10964 --- [astonLearn] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-30T12:59:16.915+03:00  INFO 10964 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-30T12:59:16.917+03:00  INFO 10964 --- [astonLearn] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-30T12:59:18.782+03:00  INFO 10964 --- [astonLearn] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 661 ms
+2025-10-30T12:59:47.751+03:00  INFO 10964 --- [astonLearn] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-30T12:59:47.767+03:00  INFO 10964 --- [astonLearn] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-30T12:59:47.775+03:00  INFO 10964 --- [astonLearn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-30T12:59:47.781+03:00  INFO 10964 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-30T12:59:49.454+03:00  INFO 10964 --- [astonLearn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

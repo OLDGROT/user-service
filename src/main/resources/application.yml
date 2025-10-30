@@ -5,8 +5,14 @@ spring:
     active: dev
   jmx:
     enabled: false
+  hal:
+    enabled: true
+    jackson:
+      serialization:
+        fail-on-empty-beans: false
 
 app:
   kafka:
     topic:
       user-events: user.events
+

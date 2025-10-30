@@ -10,11 +10,15 @@ import org.oldgrot.userservice.dto.user.UserDto;
 import org.oldgrot.userservice.dto.user.ResponseUserDto;
 import org.oldgrot.userservice.hateos.UserModelAssembler;
 import org.oldgrot.userservice.service.UserService;
+import org.springframework.hateoas.CollectionModel;
+import org.springframework.hateoas.EntityModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
+
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @Slf4j
 @RestController
@@ -26,50 +30,54 @@ public class UserController {
     private final UserService userService;
     private final UserModelAssembler assembler;
 
-    @GetMapping("/getUsers")
+    @GetMapping
     @Operation(summary = "Получить всех пользователей")
     @ApiResponse(responseCode = "200", description = "Список пользователей получен")
-    public ResponseEntity<List<ResponseUserDto>>getAll() {
+    public ResponseEntity<CollectionModel<EntityModel<ResponseUserDto>>> getAll() {
         log.info("Получен запрос на получение всех пользователей");
 
-        List<ResponseUserDto> users = userService.getAllUsers().stream()
-                .peek(responseUserDto -> responseUserDto.setLinks(Map.of("Обновить пользователя", "/update/{id}","Удалить пользователя", "/delete/{id}")))
+        List<EntityModel<ResponseUserDto>> users = userService.getAllUsers()
+                .stream()
+                .map(assembler::toModel)
                 .toList();
 
-        return ResponseEntity.ok(users);
+        CollectionModel<EntityModel<ResponseUserDto>> model = CollectionModel.of(users,
+                linkTo(methodOn(UserController.class).getAll()).withSelfRel());
 
+        return ResponseEntity.ok(model);
     }
 
-    @PostMapping("/createUser")
+    @PostMapping
     @Operation(summary = "Создать нового пользователя")
     @ApiResponse(responseCode = "200", description = "Пользователь успешно создан")
-    public ResponseEntity<ResponseUserDto> create(@RequestBody UserDto dto) {
+    public ResponseEntity<EntityModel<ResponseUserDto>> create(@RequestBody UserDto dto) {
         log.info("Создание пользователя с email: {}", dto.getEmail());
         ResponseUserDto created = userService.createUser(dto);
 
-        created.setLinks(Map.of("Получить всех пользователей", "/api/users"));
-        return ResponseEntity.ok(created);
+        EntityModel<ResponseUserDto> model = assembler.toModel(created);
+
+        return ResponseEntity.ok(model);
     }
 
-    @PutMapping("/update/{id}")
+    @PutMapping("/{id}")
     @Operation(summary = "Обновить пользователя")
     @ApiResponse(responseCode = "200", description = "Пользователь обновлён")
-    public ResponseEntity<ResponseUserDto> update(
+    public ResponseEntity<EntityModel<ResponseUserDto>> update(
             @PathVariable @Parameter(description = "id пользователя") Long id,
             @RequestBody UserDto dto) {
 
         log.info("Обновление пользователя с id: {}", id);
         ResponseUserDto updated = userService.updateUser(id, dto);
+        EntityModel<ResponseUserDto> model = assembler.toModel(updated);
 
-        updated.setLinks(Map.of("Получить всех пользователей", "/api/"));
-
-        return ResponseEntity.ok(updated);
+        return ResponseEntity.ok(model);
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/{id}")
     @Operation(summary = "Удалить пользователя")
     @ApiResponse(responseCode = "204", description = "Пользователь удалён")
-    public ResponseEntity<Void> delete(@PathVariable @Parameter(description = "id пользователя") Long id) {
+    public ResponseEntity<Void> delete(
+            @PathVariable @Parameter(description = "id пользователя") Long id) {
         log.info("Удаление пользователя с id: {}", id);
         userService.deleteUser(id);
         return ResponseEntity.noContent().build();

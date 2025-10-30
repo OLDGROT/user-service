@@ -47,7 +47,7 @@ public class UserService {
         userRepository.save(user);
 
         log.info("Пользователь '{}' успешно создан с ролью '{}'", user.getUsername(), role.getName());
-        userEventProducer.sendUserCreate(user.getId());
+        userEventProducer.sendUserCreate(user.getEmail());
         return userMapper.toDto(user);
     }
 
@@ -78,7 +78,7 @@ public class UserService {
         if (userRepository.existsById(id)) {
             userRepository.deleteById(id);
             log.info("Пользователь с id {} успешно удалён", id);
-            userEventProducer.sendUserDelete(id);
+            userEventProducer.sendUserDelete(userRepository.findById(id).get().getEmail());
         } else {
             log.warn("Попытка удалить несуществующего пользователя с id {}", id);
         }

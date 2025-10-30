@@ -41,8 +41,8 @@ class UserControllerTest {
     @Test
     void getAllUsers_returnsListOfUsers() throws Exception {
         List<ResponseUserDto> users = List.of(
-                new ResponseUserDto(1L, "Alice", "alice@mail.com", (byte) 23, "ADMIN", null),
-                new ResponseUserDto(2L, "Bob", "bob@mail.com", (byte) 24, "USER", null)
+                new ResponseUserDto(1L, "Alice", "alice@mail.com", (byte) 23, "ADMIN"),
+                new ResponseUserDto(2L, "Bob", "bob@mail.com", (byte) 24, "USER")
         );
 
         Mockito.when(userService.getAllUsers()).thenReturn(users);
@@ -57,7 +57,7 @@ class UserControllerTest {
     @Test
     void createUser_returnsCreatedUser() throws Exception {
        UserDto request = new UserDto(2L, "Charlie", "charlie@mail.com", 22, "ADMIN");
-        ResponseUserDto saved = new ResponseUserDto(3L, "Charlie", "charlie@mail.com", (byte) 22, "USER", null);
+        ResponseUserDto saved = new ResponseUserDto(3L, "Charlie", "charlie@mail.com", (byte) 22, "USER");
 
         Mockito.when(userService.createUser(any(UserDto.class))).thenReturn(saved);
 
@@ -71,10 +71,10 @@ class UserControllerTest {
 
     @Test
     void updateUser_returnsUpdatedUser() throws Exception {
-        ResponseUserDto request = new ResponseUserDto(null, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "ADMIN", null);
-        ResponseUserDto updated = new ResponseUserDto(1L, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "USER", null);
+        ResponseUserDto request = new ResponseUserDto(null, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "ADMIN");
+        ResponseUserDto updated = new ResponseUserDto(1L, "AliceUpdated", "alice_updated@mail.com", (byte) 23, "USER");
 
-        Mockito.when(userService.updateUser(eq(1L), any(ResponseUserDto.class))).thenReturn(updated);
+        Mockito.when(userService.updateUser(eq(1L), any(UserDto.class))).thenReturn(updated);
 
         mockMvc.perform(put("/api/users/1")
                         .contentType(MediaType.APPLICATION_JSON)

@@ -32,13 +32,5 @@ public class ResponseUserDto{
     private int age;
     @Schema(hidden = true)
     private String role;
-    @Schema(
-            description = "Ссылки на связанные ресурсы",
-            example = "{\"all-users\"}"
-    )
-    private Map<String, String> links;
 
-    public void setLinks(Map<String, String> stringStringMap) {
-        links.putAll(stringStringMap);
-    }
 }
