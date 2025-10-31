@@ -1,5 +1,6 @@
 package org.oldgrot.userservice.kafka;
 
+import org.oldgrot.userservice.NotificationMessage;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
@@ -15,11 +16,11 @@ public class UserEventerKafka implements UserEventProducer {
 
     @Override
     public void sendUserCreate(String email) {
-        //kafkaTemplate.send(USER_CREATE_TOPIC, email);
+        kafkaTemplate.send(USER_TOPIC, email, NotificationMessage.CREATE.toString());
     }
 
     @Override
     public void sendUserDelete(String email) {
-        //kafkaTemplate.send(USER_DELETE_TOPIC, email);
+        kafkaTemplate.send(USER_TOPIC, email, NotificationMessage.DELETE.toString());
     }
 }

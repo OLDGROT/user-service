@@ -6,8 +6,8 @@ import org.springframework.kafka.config.TopicBuilder;
 
 public class KafkaTopicConfig {
     @Bean
-    public NewTopic userTopic(String topicName) {
-        return TopicBuilder.name(topicName)
+    public NewTopic userTopic() {
+        return TopicBuilder.name("user-events")
                 .partitions(1)
                 .replicas(1)
                 .build();
