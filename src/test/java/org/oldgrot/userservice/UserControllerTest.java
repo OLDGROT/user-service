@@ -47,7 +47,7 @@ class UserControllerTest {
 
         Mockito.when(userService.getAllUsers()).thenReturn(users);
 
-        mockMvc.perform(get("/api/users"))
+        mockMvc.perform(get("/users/getUsers"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.size()").value(2))
                 .andExpect(jsonPath("$._embedded.users[0].username").value("Alice"))
@@ -76,7 +76,7 @@ class UserControllerTest {
 
         Mockito.when(userService.updateUser(eq(1L), any(UserDto.class))).thenReturn(updated);
 
-        mockMvc.perform(put("/api/users/1")
+        mockMvc.perform(put("/updateUser/1")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(request)))
                 .andExpect(status().isOk())

@@ -23,14 +23,14 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 @Slf4j
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/users")
+@RequestMapping("/users")
 @Tag(name = "User API", description = "Операции с пользователями")
 public class UserController {
 
     private final UserService userService;
     private final UserModelAssembler assembler;
 
-    @GetMapping
+    @GetMapping("/getUsers")
     @Operation(summary = "Получить всех пользователей")
     @ApiResponse(responseCode = "200", description = "Список пользователей получен")
     public ResponseEntity<CollectionModel<EntityModel<ResponseUserDto>>> getAll() {
@@ -47,7 +47,7 @@ public class UserController {
         return ResponseEntity.ok(model);
     }
 
-    @PostMapping
+    @PostMapping("/createUser")
     @Operation(summary = "Создать нового пользователя")
     @ApiResponse(responseCode = "200", description = "Пользователь успешно создан")
     public ResponseEntity<EntityModel<ResponseUserDto>> create(@RequestBody UserDto dto) {
@@ -59,7 +59,7 @@ public class UserController {
         return ResponseEntity.ok(model);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/updateUser/{id}")
     @Operation(summary = "Обновить пользователя")
     @ApiResponse(responseCode = "200", description = "Пользователь обновлён")
     public ResponseEntity<EntityModel<ResponseUserDto>> update(
@@ -73,7 +73,7 @@ public class UserController {
         return ResponseEntity.ok(model);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/deleteUser/{id}")
     @Operation(summary = "Удалить пользователя")
     @ApiResponse(responseCode = "204", description = "Пользователь удалён")
     public ResponseEntity<Void> delete(
