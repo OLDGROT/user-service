@@ -1,6 +1,6 @@
 spring:
   application:
-    name: "astonLearn"
+    name: "user-service"
   profiles:
     active: dev
   jmx:
